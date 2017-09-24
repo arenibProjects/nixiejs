@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<style>
+			body{
+				background:black;
+			}
+			#n{
+				width:100%;
+				position:fixed;
+				top:0;
+				left:0;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="n"  width="1280" height="720"></canvas>
+		<script src="nixie.js"></script>
+		<script>
+		var n = new Nixie(document.getElementById("n"),4);
+		</script>
+	</body>
+</html>
